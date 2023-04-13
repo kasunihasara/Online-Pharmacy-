@@ -1,0 +1,200 @@
+body {
+  background-color: rgba(234, 243, 250, 1);
+  position: relative;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hi{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 55px;
+  color: #111e6c;
+}
+footer {
+  background-color: rgba(118, 179, 199, 1);
+  color: azure;
+  width: 1502px;
+}
+.foot div{
+  padding: 20px;
+}
+.navigation li{
+  display: inline;
+  padding: 20px;
+  
+}
+.navigation a{
+color: #111e6c;
+text-decoration: none;
+  
+}
+.unoerderlist {
+  margin-top: -41px;
+  margin-left: 800px;
+}
+
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: rgba(234, 243, 250, 1);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 500px;
+  margin-top: -55px;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #111e6c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color:#111e6c;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(234, 243, 250, 1);
+  min-width: 160px;
+  
+  z-index: 1;
+  margin-left: 150px;
+}
+
+.dropdown-content a {
+  float: none;
+  color:#111e6c;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: rgba(234, 243, 250, 1);
+  min-width: 160px;
+  
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  float: none;
+  color:#111e6c;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content2 a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.navbar .search-container {
+  float: right;
+}
+
+.navbar input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.navbar .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: rgba(234, 243, 250, 1);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .navbar .search-container {
+    float: none;
+  }
+  .navbar a, .navbar input[type=text], .navbar .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .navbar input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+.button {
+  
+  border-radius: 10px;
+  border: none;
+  color: black;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color:rgba(118, 179, 199, 0.048);
+  color: black; 
+  border: 1px solid rgba(118, 179, 199, 1);
+}
+
+.button1:hover {
+  background-color: rgba(234, 243, 250, 1);
+  color: black;
+}
+.divistion{
+  display: inline-block;
+  
+}
+.divdiv{
+  margin-left: 90px;
+
+}

@@ -1,0 +1,89 @@
+<html>
+ <head>
+    <link rel="stylesheet" href="home1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h2 style="margin-top: 25px; margin-left: 20px;">NUCARE</h2>
+<div class="navbar">
+    
+  <a href="#home">Medicine</a>
+  <a href="#news">Medical Devices</a>
+  
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Wellness
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction2()">Personal care
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content2" id="myDropdown2">
+      <a href="#">Link 11</a>
+      <a href="#">Link 21</a>
+      <a href="#">Link 31</a>
+    </div>
+  </div> 
+</div>
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+
+
+</div>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+
+
+function myFunction2() {
+  document.getElementById("myDropdown2").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown2 = document.getElementById("myDropdown2");
+    if (myDropdown2.classList.contains('show')) {
+      myDropdown2.classList.remove('show');
+    }
+  }
+}
+</script>
+<div style="background-color: rgba(118, 179, 199, 0.24); width: 480px; height: 450px; text-align: center; padding-top: 60px; margin-left: 450px; margin-top: 40px;">
+    <h2>Create Account</h2>
+    <hr style="background-color:rgba(0, 0, 0, 0.322); width:370px; height: 1px; border:none;">
+    <form style="margin-top: 50px;" action="creatanaccount1.php" method="post">
+        Username<input name="username" type="text" style="margin-left: 50px;  border-radius: 13px; width: 250px; height: 30px; border-color:rgba(118, 179, 199, 1); background-color: rgba(118, 179, 199, 0);"><br>
+        Password<input name="password" type="password" style="margin-top: 20px; margin-left: 53px;  border-radius: 13px; width: 250px; height: 30px; border-color:rgba(118, 179, 199, 1); background-color: rgba(118, 179, 199, 0)"><br>
+        Conform Pass<input name="password1" type="password" style="margin-top: 20px; margin-left: 23px;  border-radius: 13px; width: 250px; height: 30px; border-color:rgba(118, 179, 199, 1); background-color: rgba(118, 179, 199, 0)"><br>
+       
+        <button type="submit" style="margin-top: 55px; border-radius: 13px; width: 100px; height: 38px; border:none; background-color: rgba(118, 179, 199, 1);"><b>Done</b></button>
+        <p style="color: rgba(0, 0, 0, 0.432); margin-left: -40px; margin-top: 25px;">Already has an Account?</p></a>
+        <a href="login1.html" style="text-decoration: none;"><p style=" margin-left: 200px; margin-top: -33px; color: rgba(17, 40, 246, 1);"  >Sign In</p></a>
+    </form>
+</div>
+</body>
+</html>
